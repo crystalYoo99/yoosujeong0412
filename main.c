@@ -3,7 +3,7 @@
 //void sub1();
 void sub2();
 //void sub3();
-//void sub4();
+void sub4();
 
 
 int main() {
@@ -22,5 +22,13 @@ void sub2() {
 		}
 	printf("\n");
 	}
+}
+
+void sub4(){
+        int i,j;
+        for (i=0; i<10 ; i++){
+                for (j=0; j<i ; j++) printf("*");
+                printf("\n");
+        }
 }
 
